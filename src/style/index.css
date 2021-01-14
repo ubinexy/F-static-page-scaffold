@@ -19,3 +19,39 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+  padding: 20px 100px;
+  background-color: rgb(70, 94, 150);
+}
+
+.logo-group {
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo {
+  height: 44px;
+}
+
+.register-button {
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(101, 180, 68);
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.login-button {
+  color: white;
+  margin: auto 0;
+}
+
+.login-button:after {
+  content: "\25be";
+  margin-left: 5px;
+  color: white;
+}
